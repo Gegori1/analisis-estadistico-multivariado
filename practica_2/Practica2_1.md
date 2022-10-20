@@ -202,6 +202,6 @@ Base de datos
 
 [1] https://www.kaggle.com/datasets/eliasturk/world-happiness-based-on-cpi-20152020
 
-Código
+Repositorio del código
 
-[2] 
+[2] https://github.com/Gegori1/analisis-estadistico-multivariado/tree/master/practica_2
