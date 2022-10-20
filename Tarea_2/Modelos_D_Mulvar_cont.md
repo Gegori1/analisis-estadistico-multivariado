@@ -22,9 +22,9 @@ $$= \frac{1}{4}u^2y + \frac{3}{4}y^2u \Big|_0^{x} = \frac{1}{4}x^2y + \frac{3}{4
 $$= \boxed{\frac{1}{4}xy\left(x + 3y\right)}$$
 b) Las funciones de densidad de probabilidad marginal para 𝑋 e 𝑌.
 
-$f_X(x) = \int_{0}^{y}\left( \frac{1}{2}x + \frac{3}{2} v\right) dv = \frac{1}{2}xv + \frac{3}{4} v^2 \Big|^{y}_0 = \boxed{\frac{1}{2}xy + \frac{3}{4} y^2}$
+$f_X(x) = \int_{0}^{1}\left( \frac{1}{2}x + \frac{3}{2} v\right) dv = \frac{1}{2}xv + \frac{3}{4} v^2 \Big|^{1}_0 = \boxed{\frac{1}{2}x + \frac{3}{4}}$
 
-$f_Y(y) = \int_{0}^{x}\left( \frac{1}{2}u + \frac{3}{2} y\right) du = \frac{1}{4}u^2 + \frac{3}{2}yu \Big|^x_0 = \boxed{\frac{1}{4}x^2 + \frac{3}{2}yx}$
+$f_Y(y) = \int_{0}^{1}\left( \frac{1}{2}u + \frac{3}{2} y\right) du = \frac{1}{4}u^2 + \frac{3}{2}yu \Big|^1_0 = \boxed{\frac{1}{4} + \frac{3}{2}y}$
 
 c) Las funciones de densidad de probabilidad condicional de 𝑋 e 𝑌.
 
@@ -38,9 +38,9 @@ Si $f_{XY}(x,y) = f_X(x)f_Y(y)$ para toda x, y; entonces $X$ y $Y$ son independi
 
 $f_{XY}(x,y) = \frac{1}{2}x + \frac{3}{2}y$
 
-$f_X(x)f_Y(y) = \left( \frac{1}{2}xy + \frac{3}{4} y^2 \right) \left( \frac{1}{4}x^2 + \frac{3}{2}yx \right)$
+$f_X(x)f_Y(y) = \left( \frac{1}{2}x + \frac{3}{4} \right) \left( \frac{1}{4} + \frac{3}{2}y \right) = \frac{1}{8}x + \frac{3}{4}xy + \frac{3}{16} + \frac{9}{8}y$
 
-$\frac{1}{2}x + \frac{3}{2}y \neq \frac{1}{8}xy\left[ x^2 + \frac{15}{2}xy + 9y^2 \right] \rightarrow \therefore \text{ X y Y No son independientes}$
+$\frac{1}{2}x + \frac{3}{2}y \neq \frac{1}{8}x + \frac{3}{4}xy + \frac{3}{16} + \frac{9}{8}y \rightarrow \therefore \text{ X y Y No son independientes}$
 
 ****
 
